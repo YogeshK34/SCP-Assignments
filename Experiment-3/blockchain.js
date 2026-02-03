@@ -49,7 +49,7 @@ class Block {
 // ─────────────────────────────────────────────
 class Transaction {
   constructor(sender, receiver, amount) {
-    this.id = crypto.randomBytes(8).hex();   // Unique transaction ID
+    this.id = crypto.randomBytes(8).toString('hex');   // Unique transaction ID
     this.sender = sender;
     this.receiver = receiver;
     this.amount = amount;

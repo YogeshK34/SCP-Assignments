@@ -31,7 +31,7 @@ if (input1 == input2) {
 } else {
 	if (hash1 != hash2) {
 		console.log("Different inputs produce different hash!");
-		console.log("Avalance Effect confirmed! \n");
+		console.log("Avalanche Effect confirmed! \n");
 	};
 };
 
@@ -44,6 +44,6 @@ if (input1 == input2) {
 // 2 .update(): Converts input data into UTF-8 encoded byte sequence, as hash can be only calculated in bytes. 
 
 // 3. .digest(): finalizes the hash computation and returns a fixed-length hash value. another distinction is that, 
-// after calling .digest(), the Hash object cannot be resued
+// after calling .digest(), the Hash object cannot be re-used
 
 // 4. hex: is just short of hexadecimal
