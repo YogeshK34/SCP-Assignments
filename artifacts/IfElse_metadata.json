@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "factorialDecrement",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Experiment-8.sol": "IfElse"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Experiment-8.sol": {
+			"keccak256": "0xdd9ac5d7c6fe6b17f2ac9eb2d4e2741bfe58c5243964777205e5020ed30fc1bd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7be8663b85f87c858663bf80a771905ea7ac6fa4dc0685b057f3d2f3610cf6fa",
+				"dweb:/ipfs/QmZkM9daUsgL4cr7A2WZqY91jEdDgEypWcQhNVbJ97ggeD"
+			]
+		}
+	},
+	"version": 1
+}
